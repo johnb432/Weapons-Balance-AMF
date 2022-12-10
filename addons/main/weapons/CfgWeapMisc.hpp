@@ -5,12 +5,14 @@ class amf_aanf1_01_f: amf_aanf1_base_f {
     ACE_barrelLength = 600;
     ACE_barrelTwist = 304.8;
     magazineWell[] += {"CBA_762x51_LINKS","M240_762x51"};
+    UiPicture = "\a3\weapons_f\data\ui\icon_mg_ca.paa";
 };
 
 class amf_mag58_01_f: Rifle_Long_Base_F {
     ACE_barrelLength = 630;
     ACE_barrelTwist = 304.8;
     magazineWell[] += {"CBA_762x51_LINKS","M240_762x51"};
+    UiPicture = "\a3\weapons_f\data\ui\icon_mg_ca.paa";
     class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 255.2;
     };
@@ -51,9 +53,13 @@ class amf_mini_mg_01_base_f: Rifle_Long_Base_F {
     class WeaponSlotsInfo;
 };
 class amf_mini_mg_01_f: amf_mini_mg_01_base_f {
+    UiPicture = "\a3\weapons_f\data\ui\icon_mg_ca.paa";
     class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 157.5;
     };
+};
+class amf_mini_mg_tactical_mk3: amf_mini_mg_01_base_f {
+    UiPicture = "\a3\weapons_f\data\ui\icon_mg_ca.paa";
 };
 
 class AMF_Perseis_II_01_F: Rifle_Long_Base_F {
