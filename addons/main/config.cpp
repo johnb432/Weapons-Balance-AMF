@@ -8,6 +8,7 @@ class CfgPatches {
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
             "amf_aanf1",
+            "AMF_Backpack",
             "AMF_FAMAS",
             "AMF_Glock_17",
             "amf_mag58_mg",
@@ -31,6 +32,7 @@ class CfgPatches {
 #include "CfgAcc.hpp"
 #include "CfgMagazines.hpp"
 #include "CfgMagazineWells.hpp"
+#include "CfgVehicles.hpp"
 
 class asdg_UnderSlot;
 class asdg_MuzzleSlot_762;
